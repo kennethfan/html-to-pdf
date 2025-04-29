@@ -1,6 +1,7 @@
 const express = require('express');
 const puppeteer = require('puppeteer');
 const app = express();
+app.use(express.json({ limit: '500mb' }))
 const port = 3000;
 const path = require('path');
 const ejs = require('ejs'); // 引入 ejs 模块
@@ -53,7 +54,7 @@ app.get('/convert-to-pdf', async (req, res) => {
   }
 });
 app.post('/convert-to-pdf', async (req, res) => {
-  const data = JSON.parse(req.body);
+  const data = req.body;
   // 打印请求体
   console.log('request body:', req.body);
   console.log('request data:', data);
