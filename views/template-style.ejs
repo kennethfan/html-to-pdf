@@ -78,11 +78,11 @@
       <div style="font-size:16px;font-weight:bold;line-height: 34px;color:rgb(94,120,148)">增值税应税货物或劳务清单</div>
       <div style="display: flex;align-items: center; margin: 10px 0; line-height: 16px;">
         <div  style="align-self: stretch;flex-grow: 1;min-width: 50%;display: flex;flex-direction: column;justify-content: space-between; ">
-          <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">客户名称：<%= data.name %></p>
+          <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">客户名称：<%= data.buyerName %></p>
           <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">送货地址：<%= data.deliveryAddress %></p>
         </div>
         <div style="flex-grow: 1; min-width: 50%; display: flex;flex-direction: column;justify-content: space-between;">
-          <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">日期：</p>
+          <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">日期：<%= data.deliveryDate %></p>
           <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">处方类型：<%= data.prescriptionType %></p>
           <p style="font-size:12px; text-align:left;color:rgb(94,120,148)">业务类型：<%= data.businessType %></p>
         </div>
