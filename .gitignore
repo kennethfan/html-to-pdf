@@ -1,0 +1,36 @@
+# Python编译生成的字节码文件
+*.pyc
+
+# Python虚拟环境目录
+venv/
+.venv/
+
+# 项目依赖文件
+*.egg-info/
+dist/
+build/
+
+
+# Java编译后的字节码文件
+*.class
+
+# 项目构建目录
+target/
+
+# IDEA相关的文件和目录
+.idea/
+*.iml
+
+
+# Node.js项目依赖目录
+.vscode
+node_modules/
+
+# npm/yarn缓存目录
+.npm/
+.yarn/
+
+# 打包后的文件和目录
+dist/
+build/
+.DS_Store

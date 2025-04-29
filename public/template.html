@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+</style>
+<body>
+    <div  style="padding:0;width:700px;color:rgb(94,120,148);background-color: rgb(255,255,255);
+    text-align: center;
+    margin: 0 auto;
+    font-size:10px;
+    padding:10px 63px;
+    box-sizing: border-box;
+    position: relative;">
+    <!-- 用于显示动态数据的元素 -->
+      <div id="dynamicData"></div>
+    </div>
+
+<script>
+  window.addEventListener('load', async () => {
+      try {
+          // 假设从 URL 参数中获取 id
+          const urlParams = new URLSearchParams(window.location.search);
+          const id = urlParams.get('id');
+          let apiUrl = 'http://localhost:3000/api/data';
+          if (id) {
+              apiUrl += `?id=${id}`;
+          }
+          const response = await fetch(apiUrl);
+          if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          // 解析响应数据为 JSON 格式
+          const data = await response.json();
+          console.log('Received data:', data);
+          // 根据返回的数据更新页面内容
+          const dynamicDataDiv = document.getElementById('dynamicData');
+          if (Array.isArray(data)) {
+              dynamicDataDiv.innerHTML = data.map(item => `<p>ID: ${item.id}, 名称: ${item.name}</p>`).join('');
+          } else {
+              dynamicDataDiv.innerHTML = `<p>ID: ${data.id}, 名称: ${data.name}</p>`;
+          }
+            // 数据加载完成，设置全局变量
+         window.dataLoaded = true;
+      } catch (error) {
+          console.error('Error fetching data:', error);
+          // 数据加载完成，设置全局变量
+         window.dataLoaded = true;
+      }
+  });
+</script>
+</html>

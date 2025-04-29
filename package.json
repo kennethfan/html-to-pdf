@@ -1,0 +1,20 @@
+{
+  "name": "htmltopdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "browsers": "^1.0.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "puppeteer": "^24.7.2",
+    "puppeteer-core": "^24.7.2"
+  }
+}
