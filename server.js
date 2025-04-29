@@ -54,7 +54,9 @@ app.get('/convert-to-pdf', async (req, res) => {
 });
 app.post('/convert-to-pdf', async (req, res) => {
   const data = JSON.parse(req.body);
-
+  // 打印请求体
+  console.log('request body:', req.body);
+  console.log('request data:', data);
   // 使用 EJS 渲染模板
   const html = await ejs.renderFile(path.join(__dirname, 'views', 'template-style.ejs'), { data });
   try {
