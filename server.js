@@ -106,7 +106,6 @@ app.post('/convert-to-pdf', async (req, res) => {
     await page.setContent(html, { waitUntil: 'networkidle2', timeout: 30000 });
     // 生成 PDF
     const pdf = await page.pdf({ 
-      format: 'A5', 
       format: 'A4', 
       margin: {
         top: '10mm',
