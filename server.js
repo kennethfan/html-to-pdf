@@ -39,7 +39,7 @@ app.get('/convert-to-pdf', async (req, res) => {
     // 生成 PDF
     const pdf = await page.pdf({ 
       format: 'A5', 
-      scale: 1 // 缩放比例，可根据需要调整 
+      scale: 4 // 缩放比例，可根据需要调整 
      });
     await browser.close();
 
@@ -79,7 +79,7 @@ app.post('/convert-to-pdf', async (req, res) => {
     // 生成 PDF
     const pdf = await page.pdf({ 
       format: 'A5', 
-      scale: 1 // 缩放比例，可根据需要调整 
+      scale: 4 // 缩放比例，可根据需要调整 
      });
     await browser.close();
 
