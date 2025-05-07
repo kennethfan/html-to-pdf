@@ -23,7 +23,7 @@
     min-width: calc((700pt - 40pt) / 12); /* 最小宽度 */
     max-width: calc((700pt - 40pt) / 12);
     /* 只给单元格添加左边框和上边框 */
-    border: 1pt solid rgb(0,0,0);
+    /* border: 1pt solid rgb(0,0,0); */
     padding:4pt 0;
     text-align: center;
     box-sizing: border-box;
@@ -31,20 +31,29 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-left: none;
-    border-bottom: none;
+    border-right-width: 1pt;
+    border-top-width: 1pt;
+    border-left-width: 0;
+    border-bottom-width: 0;
     height:38pt;
     /* min-height: 62pt; */
     /* max-height: 62pt; */
     overflow: hidden;
     font-weight: bold;
-    border-style: solid !important;
+    /* border-bottom:none; */
+    /* border-left:none; */
+    border-color: #000!important;
+    border-style: solid!important;
   }
   .wrap td:first-child{
     border-left: 1pt solid rgb(0,0,0); 
+    border-style: solid !important;
+    border-color: #000!important;
   }
   .wrap tr:last-child td{
     border-bottom: 1pt solid rgb(0,0,0);
+    border-style: solid !important;
+    border-color: #000!important;
   }
 
   .wrap{
@@ -112,7 +121,7 @@
         <tr>
           <td>序号</td>
           <td >批号</td>
-          <td >商品名称商品名商品名称商品名商品名称商品名</td>
+          <td >商品名称商品名商品</td>
           <td >规格</td>
           <td >产地</td>
           <td >计量单位</td>
@@ -128,7 +137,7 @@
          <tr>
           <td >序号</td>
           <td >批号</td>
-          <td >商品名称商品名商品名称商品名商品名称商品名</td>
+          <td >商品名称商品名商品</td>
           <td >规格</td>
           <td >产地</td>
           <td >计量单位</td>
