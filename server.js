@@ -184,7 +184,7 @@ app.post('/convert-to-pdf', async (req, res) => {
         bottom: '0mm',
         left: '0mm'
       },
-      scale: 0.7 // 缩放比例，可根据需要调整 
+      scale: 0.7// 缩放比例，可根据需要调整 
      });
     await browser.close();
 
