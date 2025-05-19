@@ -1,0 +1,471 @@
+{
+  "data": [
+      {
+          "pdfUrl": "https://www.baiwangyunshu.com/redirect?url=https://fp.baiwang.com/format/d?d=B6949921FC4DD3107510041D9BEEB6F2AC736C9EA02D660826F712E99066E5F0&option=1",
+          "title": "增值税应税货物或劳务清单",
+          "customerName": "苏州市中医医院",
+          "dateRange": "2025-05-06~2025-05-06",
+          "prescriptionType": null,
+          "deliveryAddress": "虎丘区嵩山路218号（代煎方）",
+          "businessType": null,
+          "invoiceDetailRespVOList": [
+            {
+              "id": "265",
+              "snowId": "1920044320197632000",
+              "invoiceSnowId": "1920044315260936192",
+              "lineNo": "132",
+              "goodsCode": "C09007-5-1kg",
+              "goodsName": "朱茯神",
+              "goodsSpecification": "朱砂拌(A)",
+              "goodsUnit": "公斤",
+              "goodsQuantity": 10.00000000000000,
+              "goodsPrice": 128.57,
+              "goodsTotalPrice": 1285.70,
+              "goodsTotalTax": 106.16,
+              "taxRate": 0.090000,
+              "priceTaxMark": "1",
+              "vatSpecialManagement": "",
+              "freeTaxMark": "",
+              "preferentialMarkFlag": "0",
+              "invoiceLineNature": "0",
+              "excludTaxGoodsPrice": 127.48000000000000,
+              "excludTaxGoodsTotalPrice": 1179.54,
+              "includTaxGoodsPrice": 128.57000000000000,
+              "includTaxGoodsTotalPrice": 1285.70,
+              "createTime": 1746609213000,
+              "extList": [
+                  {
+                      "code": "batchNo",
+                      "codeValue": "250104"
+                  },
+                  {
+                      "code": "amount",
+                      "codeValue": "1607.10"
+                  },
+                  {
+                      "code": "price",
+                      "codeValue": "160.71"
+                  },
+                  {
+                      "code": "origin",
+                      "codeValue": "安徽安庆"
+                  },
+                  {
+                      "code": "discount",
+                      "codeValue": "80.0"
+                  }
+              ]
+          }, {
+            "id": "265",
+            "snowId": "1920044320197632000",
+            "invoiceSnowId": "1920044315260936192",
+            "lineNo": "132",
+            "goodsCode": "C09007-5-1kg",
+            "goodsName": "朱茯神",
+            "goodsSpecification": "朱砂拌(A)",
+            "goodsUnit": "公斤",
+            "goodsQuantity": 10.00000000000000,
+            "goodsPrice": 128.57,
+            "goodsTotalPrice": 1285.70,
+            "goodsTotalTax": 106.16,
+            "taxRate": 0.090000,
+            "priceTaxMark": "1",
+            "vatSpecialManagement": "",
+            "freeTaxMark": "",
+            "preferentialMarkFlag": "0",
+            "invoiceLineNature": "0",
+            "excludTaxGoodsPrice": 127.48000000000000,
+            "excludTaxGoodsTotalPrice": 1179.54,
+            "includTaxGoodsPrice": 128.57000000000000,
+            "includTaxGoodsTotalPrice": 1285.70,
+            "createTime": 1746609213000,
+            "extList": [
+                {
+                    "code": "batchNo",
+                    "codeValue": "250104"
+                },
+                {
+                    "code": "amount",
+                    "codeValue": "1607.10"
+                },
+                {
+                    "code": "price",
+                    "codeValue": "160.71"
+                },
+                {
+                    "code": "origin",
+                    "codeValue": "安徽安庆"
+                },
+                {
+                    "code": "discount",
+                    "codeValue": "80.0"
+                }
+            ]
+        }, {
+          "id": "265",
+          "snowId": "1920044320197632000",
+          "invoiceSnowId": "1920044315260936192",
+          "lineNo": "132",
+          "goodsCode": "C09007-5-1kg",
+          "goodsName": "朱茯神",
+          "goodsSpecification": "朱砂拌(A)",
+          "goodsUnit": "公斤",
+          "goodsQuantity": 10.00000000000000,
+          "goodsPrice": 128.57,
+          "goodsTotalPrice": 1285.70,
+          "goodsTotalTax": 106.16,
+          "taxRate": 0.090000,
+          "priceTaxMark": "1",
+          "vatSpecialManagement": "",
+          "freeTaxMark": "",
+          "preferentialMarkFlag": "0",
+          "invoiceLineNature": "0",
+          "excludTaxGoodsPrice": 127.48000000000000,
+          "excludTaxGoodsTotalPrice": 1179.54,
+          "includTaxGoodsPrice": 128.57000000000000,
+          "includTaxGoodsTotalPrice": 1285.70,
+          "createTime": 1746609213000,
+          "extList": [
+              {
+                  "code": "batchNo",
+                  "codeValue": "250104"
+              },
+              {
+                  "code": "amount",
+                  "codeValue": "1607.10"
+              },
+              {
+                  "code": "price",
+                  "codeValue": "160.71"
+              },
+              {
+                  "code": "origin",
+                  "codeValue": "安徽安庆"
+              },
+              {
+                  "code": "discount",
+                  "codeValue": "80.0"
+              }
+          ]
+      }, {
+        "id": "265",
+        "snowId": "1920044320197632000",
+        "invoiceSnowId": "1920044315260936192",
+        "lineNo": "132",
+        "goodsCode": "C09007-5-1kg",
+        "goodsName": "朱茯神",
+        "goodsSpecification": "朱砂拌(A)",
+        "goodsUnit": "公斤",
+        "goodsQuantity": 10.00000000000000,
+        "goodsPrice": 128.57,
+        "goodsTotalPrice": 1285.70,
+        "goodsTotalTax": 106.16,
+        "taxRate": 0.090000,
+        "priceTaxMark": "1",
+        "vatSpecialManagement": "",
+        "freeTaxMark": "",
+        "preferentialMarkFlag": "0",
+        "invoiceLineNature": "0",
+        "excludTaxGoodsPrice": 127.48000000000000,
+        "excludTaxGoodsTotalPrice": 1179.54,
+        "includTaxGoodsPrice": 128.57000000000000,
+        "includTaxGoodsTotalPrice": 1285.70,
+        "createTime": 1746609213000,
+        "extList": [
+            {
+                "code": "batchNo",
+                "codeValue": "250104"
+            },
+            {
+                "code": "amount",
+                "codeValue": "1607.10"
+            },
+            {
+                "code": "price",
+                "codeValue": "160.71"
+            },
+            {
+                "code": "origin",
+                "codeValue": "安徽安庆"
+            },
+            {
+                "code": "discount",
+                "codeValue": "80.0"
+            }
+        ]
+    },
+              {
+                  "id": "265",
+                  "snowId": "1920044320197632000",
+                  "invoiceSnowId": "1920044315260936192",
+                  "lineNo": "132",
+                  "goodsCode": "C09007-5-1kg",
+                  "goodsName": "朱茯神",
+                  "goodsSpecification": "朱砂拌(A)",
+                  "goodsUnit": "公斤",
+                  "goodsQuantity": 10.00000000000000,
+                  "goodsPrice": 128.57,
+                  "goodsTotalPrice": 1285.70,
+                  "goodsTotalTax": 106.16,
+                  "taxRate": 0.090000,
+                  "priceTaxMark": "1",
+                  "vatSpecialManagement": "",
+                  "freeTaxMark": "",
+                  "preferentialMarkFlag": "0",
+                  "invoiceLineNature": "0",
+                  "excludTaxGoodsPrice": 127.48000000000000,
+                  "excludTaxGoodsTotalPrice": 1179.54,
+                  "includTaxGoodsPrice": 128.57000000000000,
+                  "includTaxGoodsTotalPrice": 1285.70,
+                  "createTime": 1746609213000,
+                  "extList": [
+                      {
+                          "code": "batchNo",
+                          "codeValue": "250104"
+                      },
+                      {
+                          "code": "amount",
+                          "codeValue": "1607.10"
+                      },
+                      {
+                          "code": "price",
+                          "codeValue": "160.71"
+                      },
+                      {
+                          "code": "origin",
+                          "codeValue": "安徽安庆"
+                      },
+                      {
+                          "code": "discount",
+                          "codeValue": "80.0"
+                      }
+                  ]
+              },
+              {
+                  "id": "266",
+                  "snowId": "1920044320210214912",
+                  "invoiceSnowId": "1920044315260936192",
+                  "lineNo": "133",
+                  "goodsCode": "C09009-1-1kg",
+                  "goodsName": "猪苓",
+                  "goodsSpecification": "净制(A)",
+                  "goodsUnit": "公斤",
+                  "goodsQuantity": 20.00000000000000,
+                  "goodsPrice": 447.20,
+                  "goodsTotalPrice": 8944.00,
+                  "goodsTotalTax": 738.50,
+                  "taxRate": 0.090000,
+                  "priceTaxMark": "1",
+                  "vatSpecialManagement": "",
+                  "freeTaxMark": "",
+                  "preferentialMarkFlag": "0",
+                  "invoiceLineNature": "0",
+                  "excludTaxGoodsPrice": 446.11000000000000,
+                  "excludTaxGoodsTotalPrice": 8205.50,
+                  "includTaxGoodsPrice": 447.20000000000000,
+                  "includTaxGoodsTotalPrice": 8944.00,
+                  "createTime": 1746609213000,
+                  "extList": [
+                      {
+                          "code": "batchNo",
+                          "codeValue": "241221"
+                      },
+                      {
+                          "code": "amount",
+                          "codeValue": "11180.00"
+                      },
+                      {
+                          "code": "price",
+                          "codeValue": "559.0"
+                      },
+                      {
+                          "code": "origin",
+                          "codeValue": "陕西"
+                      },
+                      {
+                          "code": "discount",
+                          "codeValue": "80.0"
+                      }
+                  ]
+              },
+              {
+                  "id": "267",
+                  "snowId": "1920044320222797824",
+                  "invoiceSnowId": "1920044315260936192",
+                  "lineNo": "134",
+                  "goodsCode": "C10030-1-1kg",
+                  "goodsName": "海浮石",
+                  "goodsSpecification": "粉碎（A)",
+                  "goodsUnit": "公斤",
+                  "goodsQuantity": 5.00000000000000,
+                  "goodsPrice": 57.78,
+                  "goodsTotalPrice": 288.90,
+                  "goodsTotalTax": 23.85,
+                  "taxRate": 0.090000,
+                  "priceTaxMark": "1",
+                  "vatSpecialManagement": "",
+                  "freeTaxMark": "",
+                  "preferentialMarkFlag": "0",
+                  "invoiceLineNature": "0",
+                  "excludTaxGoodsPrice": 56.69000000000000,
+                  "excludTaxGoodsTotalPrice": 265.05,
+                  "includTaxGoodsPrice": 57.78000000000000,
+                  "includTaxGoodsTotalPrice": 288.90,
+                  "createTime": 1746609213000,
+                  "extList": [
+                      {
+                          "code": "batchNo",
+                          "codeValue": "240531"
+                      },
+                      {
+                          "code": "amount",
+                          "codeValue": "361.10"
+                      },
+                      {
+                          "code": "price",
+                          "codeValue": "72.22"
+                      },
+                      {
+                          "code": "origin",
+                          "codeValue": "广东"
+                      },
+                      {
+                          "code": "discount",
+                          "codeValue": "80.0"
+                      }
+                  ]
+              },
+              {
+                  "id": "268",
+                  "snowId": "1920044320256352256",
+                  "invoiceSnowId": "1920044315260936192",
+                  "lineNo": "135",
+                  "goodsCode": "C11001-1-1kg",
+                  "goodsName": "生石膏",
+                  "goodsSpecification": "粉碎（A）",
+                  "goodsUnit": "公斤",
+                  "goodsQuantity": 50.00000000000000,
+                  "goodsPrice": 14.82,
+                  "goodsTotalPrice": 741.00,
+                  "goodsTotalTax": 61.18,
+                  "taxRate": 0.090000,
+                  "priceTaxMark": "1",
+                  "vatSpecialManagement": "",
+                  "freeTaxMark": "",
+                  "preferentialMarkFlag": "0",
+                  "invoiceLineNature": "0",
+                  "excludTaxGoodsPrice": 13.73000000000000,
+                  "excludTaxGoodsTotalPrice": 679.82,
+                  "includTaxGoodsPrice": 14.82000000000000,
+                  "includTaxGoodsTotalPrice": 741.00,
+                  "createTime": 1746609213000,
+                  "extList": [
+                      {
+                          "code": "batchNo",
+                          "codeValue": "241224"
+                      },
+                      {
+                          "code": "amount",
+                          "codeValue": "926.00"
+                      },
+                      {
+                          "code": "price",
+                          "codeValue": "18.52"
+                      },
+                      {
+                          "code": "origin",
+                          "codeValue": "湖北"
+                      },
+                      {
+                          "code": "discount",
+                          "codeValue": "80.0"
+                      }
+                  ]
+              },
+              {
+                  "id": "269",
+                  "snowId": "1920044320264740864",
+                  "invoiceSnowId": "1920044315260936192",
+                  "lineNo": "136",
+                  "goodsCode": "C11004-1-Z-1kg",
+                  "goodsName": "龙骨",
+                  "goodsSpecification": "粉碎(A)",
+                  "goodsUnit": "公斤",
+                  "goodsQuantity": 90.00000000000000,
+                  "goodsPrice": 329.87,
+                  "goodsTotalPrice": 29688.30,
+                  "goodsTotalTax": 2451.33,
+                  "taxRate": 0.090000,
+                  "priceTaxMark": "1",
+                  "vatSpecialManagement": "",
+                  "freeTaxMark": "",
+                  "preferentialMarkFlag": "0",
+                  "invoiceLineNature": "0",
+                  "excludTaxGoodsPrice": 328.78000000000000,
+                  "excludTaxGoodsTotalPrice": 27236.97,
+                  "includTaxGoodsPrice": 329.87000000000000,
+                  "includTaxGoodsTotalPrice": 29688.30,
+                  "createTime": 1746609213000,
+                  "extList": [
+                      {
+                          "code": "batchNo",
+                          "codeValue": "240904"
+                      },
+                      {
+                          "code": "amount",
+                          "codeValue": "37109.70"
+                      },
+                      {
+                          "code": "price",
+                          "codeValue": "412.33"
+                      },
+                      {
+                          "code": "origin",
+                          "codeValue": "河南"
+                      },
+                      {
+                          "code": "discount",
+                          "codeValue": "80.0"
+                      }
+                  ]
+              },
+              {
+                  "id": null,
+                  "snowId": null,
+                  "invoiceSnowId": null,
+                  "lineNo": null,
+                  "goodsCode": null,
+                  "goodsName": null,
+                  "goodsSpecification": null,
+                  "goodsUnit": null,
+                  "goodsQuantity": 5354.00000000000000,
+                  "goodsPrice": null,
+                  "goodsTotalPrice": 585570.00,
+                  "goodsTotalTax": null,
+                  "taxRate": null,
+                  "priceTaxMark": null,
+                  "vatSpecialManagement": null,
+                  "freeTaxMark": null,
+                  "preferentialMarkFlag": null,
+                  "invoiceLineNature": null,
+                  "excludTaxGoodsPrice": null,
+                  "excludTaxGoodsTotalPrice": null,
+                  "includTaxGoodsPrice": null,
+                  "includTaxGoodsTotalPrice": null,
+                  "createTime": null,
+                  "extList": [
+                      {
+                          "code": "amount",
+                          "codeValue": "731905.95"
+                      },
+                      {
+                          "code": "batchNo",
+                          "codeValue": "合计"
+                      }
+                  ]
+              }
+          ]
+      }
+     
+  ]
+}
